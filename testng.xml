@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "HMS Somke Regression Suite">
+<listeners>
+<listener class-name="hms.base.TestListeners"></listener>
+</listeners>
+<test name = "Smoke Tests">
+<classes>
+<class name="hms.tests.TestClassUsingListener"></class>
+</classes> 
+</test>
+</suite>
