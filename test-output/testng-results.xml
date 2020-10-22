@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="HMS Somke Regression Suite" duration-ms="24050" started-at="2020-04-28T19:57:32 IST" finished-at="2020-04-28T19:57:56 IST">
+  <suite name="HMS Somke Regression Suite" duration-ms="42644" started-at="2020-04-30T01:55:11 IST" finished-at="2020-04-30T01:55:54 IST">
     <groups>
     </groups>
-    <test name="Smoke Tests" duration-ms="24050" started-at="2020-04-28T19:57:32 IST" finished-at="2020-04-28T19:57:56 IST">
+    <test name="Smoke Tests" duration-ms="42644" started-at="2020-04-30T01:55:11 IST" finished-at="2020-04-30T01:55:54 IST">
       <class name="hms.tests.TestClassUsingListener">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:hms.tests.TestClassUsingListener@3d8314f0]" name="beforeClass" is-config="true" duration-ms="22292" started-at="2020-04-28T19:57:32 IST" finished-at="2020-04-28T19:57:54 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:hms.tests.TestClassUsingListener@3d8314f0]" name="beforeClass" is-config="true" duration-ms="29481" started-at="2020-04-30T01:55:11 IST" finished-at="2020-04-30T01:55:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="testFailed()[pri:0, instance:hms.tests.TestClassUsingListener@3d8314f0]" name="testFailed" duration-ms="69" started-at="2020-04-28T19:57:54 IST" finished-at="2020-04-28T19:57:54 IST">
+        <test-method status="FAIL" signature="testFailed()[pri:0, instance:hms.tests.TestClassUsingListener@3d8314f0]" name="testFailed" duration-ms="411" started-at="2020-04-30T01:55:41 IST" finished-at="2020-04-30T01:55:42 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Executing Fail Method]]>
@@ -54,7 +54,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFailed -->
-        <test-method status="SKIP" signature="testSkipped()[pri:0, instance:hms.tests.TestClassUsingListener@3d8314f0]" name="testSkipped" duration-ms="2" started-at="2020-04-28T19:57:55 IST" finished-at="2020-04-28T19:57:55 IST">
+        <test-method status="SKIP" signature="testSkipped()[pri:0, instance:hms.tests.TestClassUsingListener@3d8314f0]" name="testSkipped" duration-ms="3" started-at="2020-04-30T01:55:43 IST" finished-at="2020-04-30T01:55:43 IST">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Executing Skip Method]]>
@@ -96,11 +96,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSkipped -->
-        <test-method status="PASS" signature="testSuccessfull()[pri:0, instance:hms.tests.TestClassUsingListener@3d8314f0]" name="testSuccessfull" duration-ms="3" started-at="2020-04-28T19:57:55 IST" finished-at="2020-04-28T19:57:55 IST">
+        <test-method status="PASS" signature="testSuccessfull()[pri:0, instance:hms.tests.TestClassUsingListener@3d8314f0]" name="testSuccessfull" duration-ms="1" started-at="2020-04-30T01:55:43 IST" finished-at="2020-04-30T01:55:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfull -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:hms.tests.TestClassUsingListener@3d8314f0]" name="afterClass" is-config="true" duration-ms="781" started-at="2020-04-28T19:57:55 IST" finished-at="2020-04-28T19:57:56 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:hms.tests.TestClassUsingListener@3d8314f0]" name="afterClass" is-config="true" duration-ms="10181" started-at="2020-04-30T01:55:43 IST" finished-at="2020-04-30T01:55:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
